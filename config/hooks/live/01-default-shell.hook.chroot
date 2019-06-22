@@ -2,4 +2,4 @@
 
 set -ex
 
-sed -i -e 's/\/bin\/bash/\/usr\/bin\/zsh/g' /etc/adduser.conf
+sed -i -e 's/\/bin\/bash/\/usr\/bin\/bash/g' /etc/adduser.conf

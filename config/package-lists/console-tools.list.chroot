@@ -6,7 +6,6 @@ ffmpeg
 gdb
 git
 htop
-kubectl
 netcat
 nmap
 openssh-client
