@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -ex
+
+curl -Lo geany-with-plugins.zip http://veghelyiattila.hu/geany-with-plugins.zip \
+	&& unzip geany-with-plugins.zip \
+	&& dpkg -i pack/geany_1.35~stretch_amd64.deb \
+	&& dpkg -i pack/geany-plugins_1.35~stretch_amd64.deb \
+	&& rm -rf pack
