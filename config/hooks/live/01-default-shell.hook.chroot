@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-set -ex
-
-sed -i -e 's/\/bin\/bash/\/usr\/bin\/bash/g' /etc/adduser.conf
