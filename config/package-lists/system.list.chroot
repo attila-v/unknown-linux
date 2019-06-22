@@ -2,7 +2,7 @@ aspell
 aspell-en
 aspell-hu
 debconf-utils
-default-jre
+debhelper
 dnsutils
 docker-ce
 firmware-linux
@@ -12,12 +12,8 @@ keyboard-configuration
 live-tools
 locales
 locales-all
-macchanger
 man
-pavucontrol
 pulseaudio
 qemu
 sudo
-tor
 user-setup
-virtualbox
