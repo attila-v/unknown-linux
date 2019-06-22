@@ -37,7 +37,7 @@ bindsym $mod+Shift+space floating toggle
 
 # window management
 bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+Return exec --no-startup-id $terminal -e /usr/bin/zsh
+bindsym $mod+Return exec --no-startup-id $terminal -e /usr/bin/bash
 
 bindsym $mod+Shift+q kill
 bindsym $mod+f fullscreen
@@ -107,7 +107,7 @@ bar {
 }
 
 # lock screen
-bindsym $mod+x exec --no-startup-id i3lock --color 000000 --show-failed-attempts
+bindsym $mod+x exec --no-startup-id i3lock --color 123456 --show-failed-attempts
 
 # screenshot
 bindsym Print exec --no-startup-id scrot
@@ -116,7 +116,7 @@ bindsym Print exec --no-startup-id scrot
 exec --no-startup-id xsetroot -solid "#000000"
 
 # keyboard
-exec --no-startup-id xset r rate 250 60
+exec --no-startup-id xset r rate 200 50
 
-# audio
-exec pulseaudio --start
+# no screen saver
+exec --no-startup-id xset -dpms s 0
