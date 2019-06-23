@@ -1,5 +1,5 @@
 # terminal
-set $terminal alacritty
+set $terminal xfce4-terminal
 
 # font
 font pango: FiraCode 10

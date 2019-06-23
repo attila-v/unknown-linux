@@ -13,6 +13,7 @@ live-tools
 locales
 locales-all
 man
+ntp
 pulseaudio
 qemu
 sudo
