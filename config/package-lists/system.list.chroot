@@ -1,6 +1,8 @@
 aspell
 aspell-en
 aspell-hu
+cifs-utils
+cryptsetup
 debconf-utils
 debhelper
 dnsutils

@@ -2,7 +2,7 @@
 
 set -ex
 
-CFG_DIST_CODE="UNKNOWN"
+CFG_DIST_CODE="ATTIKA"
 CFG_MIRROR="http://deb.debian.org/debian"
 CFG_MIRROR_SECURITY="http://security.debian.org"
 
@@ -25,7 +25,7 @@ lb config \
     --distribution "${CFG_DIST_CODE}" \
     --grub-splash "${CFG_DIST_CODE}" \
     --ignore-system-defaults \
-    --image-name "unknown-linux-live" \
+    --image-name "attika-linux-live" \
     --iso-application "${CFG_DIST_CODE}" \
     --iso-preparer "${CFG_DIST_CODE}" \
     --iso-publisher "${CFG_DIST_CODE}" \
