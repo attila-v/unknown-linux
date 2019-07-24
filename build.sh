@@ -37,7 +37,7 @@ lb config \
     --mirror-bootstrap "${CFG_MIRROR}" \
     --mirror-chroot-security "${CFG_MIRROR_SECURITY}" \
     --parent-archive-areas "main contrib non-free" \
-    --parent-distribution "testing" \
+    --parent-distribution "buster" \
     --parent-mirror-binary "${CFG_MIRROR}" \
     --parent-mirror-binary-security "${CFG_MIRROR_SECURITY}" \
     --parent-mirror-bootstrap "${CFG_MIRROR}" \
