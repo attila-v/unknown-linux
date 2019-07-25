@@ -160,7 +160,7 @@ bar {
 exec --no-startup-id xset -dpms s 0 r rate 200 50
 
 # lock screen
-bindsym +x exec --no-startup-id i3lock --color 123456 --show-failed-attempts
+bindsym $mod+x exec --no-startup-id i3lock --color 123456 --show-failed-attempts
 
 # screenshot
 bindsym Print exec --no-startup-id scrot
