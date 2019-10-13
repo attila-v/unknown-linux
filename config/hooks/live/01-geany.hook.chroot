@@ -5,6 +5,6 @@ set -ex
 curl -Lo geany-with-plugins.zip http://veghelyiattila.hu/geany-with-plugins.zip \
 	&& apt-get install -y libvte9 \
 	&& unzip geany-with-plugins.zip \
-	&& dpkg -i pack/geany_1.35~stretch_amd64.deb \
-	&& dpkg -i pack/geany-plugins_1.35-stretch_amd64.deb \
+	&& dpkg -i pack/geany_*.deb \
+	&& dpkg -i pack/geany-plugins_*.deb \
 	&& rm -rf pack geany-with-plugins.zip
