@@ -6,9 +6,11 @@ ffmpeg
 gdb
 git
 htop
+lshw
 netcat
 nmap
 openssh-client
+rfkill
 screen
 sqlmap
 tcpdump
