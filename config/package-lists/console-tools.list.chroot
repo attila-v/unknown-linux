@@ -2,6 +2,7 @@ ack-grep
 bash
 bpfcc-tools
 curl
+dosfstools
 ffmpeg
 gdb
 git
@@ -20,5 +21,7 @@ tmux
 traceroute
 tshark
 unzip
+util-linux
 vim
 wget
+xz-utils
