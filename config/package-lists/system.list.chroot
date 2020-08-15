@@ -19,4 +19,5 @@ ntp
 pulseaudio
 qemu
 sudo
+tor
 user-setup
