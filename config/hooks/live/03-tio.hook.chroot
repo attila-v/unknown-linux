@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -ex
+
+git clone https://github.com/attila-v/tio.git \
+	&& cd tio \
+	&& ./autogen.sh \
+	&& ./configure \
+	&& make \
+	&& cp src/tio /usr/bin \
+	&& cd .. \
+	&& rm -rf tio
