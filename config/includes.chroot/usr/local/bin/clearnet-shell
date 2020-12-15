@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-sudo ip netns add clearnet
-sudo -E ip netns exec clearnet sudo -E -u "$(whoami)" bash

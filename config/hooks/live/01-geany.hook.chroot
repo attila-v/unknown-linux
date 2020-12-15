@@ -2,7 +2,7 @@
 
 set -ex
 
-curl -Lo geany-with-plugins.zip http://veghelyiattila.hu/geany-with-plugins.zip \
+curl -Lo geany-with-plugins.zip https://avesoft.hu/geany-with-plugins_1.37.zip \
 	&& apt-get install -y libvte9 \
 	&& unzip geany-with-plugins.zip \
 	&& dpkg -i pack/geany_*.deb \
