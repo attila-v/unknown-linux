@@ -7,6 +7,7 @@ debconf-utils
 debhelper
 dnsutils
 docker-ce
+hexedit
 firmware-linux
 iproute2
 iw
@@ -19,5 +20,4 @@ ntp
 pulseaudio
 qemu
 sudo
-tor
 user-setup

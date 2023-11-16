@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-set -ex
-
-cd etc/skel
-curl -LsSf "https://dist.torproject.org/torbrowser/10.0/tor-browser-linux64-10.0_en-US.tar.xz" | tar -xvJ
-mv tor-browser_en-US /opt/
-chown -R 1000:1000 /opt/tor-browser_en-US
-ln -s /opt/tor-browser_en-US/Browser/start-tor-browser /usr/bin/tor-browser
