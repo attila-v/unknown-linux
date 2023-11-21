@@ -6,20 +6,23 @@ CFG_DIST_CODE="ATTIKA"
 CFG_MIRROR="http://deb.debian.org/debian"
 CFG_MIRROR_SECURITY="http://security.debian.org"
 
-apt-get update && apt-get install --no-install-recommends --yes \
+apt-get clean && apt-get update && apt-get install --no-install-recommends --yes \
     ca-certificates \
     cpio \
     curl \
     live-build
 
+lb clean
+
 lb config \
     --architectures "amd64" \
-    --archive-areas "main contrib non-free" \
+    --archive-areas "main contrib non-free non-free-firmware" \
     --binary-images "iso-hybrid" \
     --bootappend-live "boot=live persistence components splash nonetworking" \
     --bootloaders "syslinux" \
     --cache "false" \
     --checksums "sha512" \
+	--clean \
     --debian-installer "false" \
     --debootstrap-options "--include=apt-transport-https,software-properties-common,gnupg" \
     --distribution "${CFG_DIST_CODE}" \
@@ -36,8 +39,8 @@ lb config \
     --mirror-binary-security "${CFG_MIRROR_SECURITY}" \
     --mirror-bootstrap "${CFG_MIRROR}" \
     --mirror-chroot-security "${CFG_MIRROR_SECURITY}" \
-    --parent-archive-areas "main contrib non-free" \
-    --parent-distribution "buster" \
+    --parent-archive-areas "main contrib non-free non-free-firmware" \
+    --parent-distribution "bookworm" \
     --parent-mirror-binary "${CFG_MIRROR}" \
     --parent-mirror-binary-security "${CFG_MIRROR_SECURITY}" \
     --parent-mirror-bootstrap "${CFG_MIRROR}" \
