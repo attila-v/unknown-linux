@@ -2,6 +2,10 @@ firefox-esr
 i3
 i3blocks
 i3lock
+nvidia-legacy-340xx-driver
+nvidia-modprobe
+nvidia-settings
+nvidia-xconfig
 scrot
 suckless-tools
 x11-xserver-utils
@@ -10,3 +14,6 @@ xfce4-terminal
 xinit
 xserver-xorg
 xserver-xorg-core
+xserver-xorg-video-dummy
+xserver-xorg-video-intel
+xserver-xorg-video-nouveau

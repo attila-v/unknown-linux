@@ -6,6 +6,7 @@ dosfstools
 ffmpeg
 gdb
 git
+grub-efi-amd64
 htop
 lshw
 netcat
@@ -24,4 +25,5 @@ unzip
 util-linux
 vim
 wget
+wpasupplicant
 xz-utils
