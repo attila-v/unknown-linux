@@ -12,6 +12,7 @@ firmware-linux
 iproute2
 iw
 keyboard-configuration
+libsdl2-dev
 live-tools
 locales
 locales-all

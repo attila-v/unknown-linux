@@ -2,6 +2,8 @@ firefox-esr
 i3
 i3blocks
 i3lock
+libglx-mesa0
+libglx0
 nvidia-legacy-340xx-driver
 nvidia-modprobe
 nvidia-settings

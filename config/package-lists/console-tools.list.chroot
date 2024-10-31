@@ -12,6 +12,7 @@ lshw
 netcat
 nmap
 openssh-client
+pmount
 rfkill
 screen
 sqlmap
@@ -27,3 +28,4 @@ vim
 wget
 wpasupplicant
 xz-utils
+zathura

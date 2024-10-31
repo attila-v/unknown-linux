@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -ex
+
+curl -Lo geany-with-plugins.zip https://avesoft.hu/geany-with-plugins_1.37_buster.zip \
+	&& apt-get install -y libvte9 \
+	&& unzip geany-with-plugins.zip \
+	&& dpkg -i pack/geany_*.deb \
+	&& dpkg -i pack/geany-plugins_*.deb \
+	&& rm -rf pack geany-with-plugins.zip
